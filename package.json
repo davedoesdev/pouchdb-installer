@@ -11,8 +11,6 @@
     "pouchdb-monorepo": "pouchdb/pouchdb"
   },
   "scripts": {
-    "prepare": "npm explore pouchdb-monorepo npm install && cp -R $(npm ls pouchdb-monorepo -ps)/packages .",
-    "prepack": "echo packages > .npmignore",
-    "postpack": "rm .npmignore"
+    "prepare": "npm explore pouchdb-monorepo npm install && cp -R $(npm ls pouchdb-monorepo -ps)/packages ."
   }
 }
