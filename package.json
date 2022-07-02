@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-installer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Installs PouchDB from its monorepo",
   "repository": {
     "type": "git",
